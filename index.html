@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Resume - Start Bootstrap Theme</title>
+        <title>Portfolio</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -14,23 +14,49 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        <style>
+            .skill{
+                background: #f2f2f2;
+            }
+
+            .skill tr{
+                border-bottom: 1px solid #000;
+            }
+
+            .skill th,.skill td{
+                padding-top: 2px;
+                padding-bottom: 2px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .detail{
+                font-size: 10px;
+                width: 80%;
+                max-width: 800px;
+            }
+
+            .img-works {
+                height: 350px;
+                max-width: 600px;
+            }
+        </style>            
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Clarence Taylor</span>
+                <span class="d-block d-lg-none">Yuji Masuda</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#qualifications">Qualifications</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#works">Works</a></li>
                 </ul>
             </div>
         </nav>
@@ -40,180 +66,191 @@
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        Clarence
-                        <span class="text-primary">Taylor</span>
+                        Hello I'm Yuji Masuda!
                     </h1>
                     <div class="subheading mb-5">
-                        3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                        <a href="mailto:name@email.com">name@email.com</a>
+                        <i class="fa-solid fa-location-dot"></i> Japan, Wakayama
                     </div>
-                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
-                    </div>
+                    <p class="lead mb-5">
+                        和歌山県出身のエンジニアです。大学院では画像処理を中心にコンピュータサイエンスについて学び、ドローンを用いた空撮画像のリアルタイム結合に関する研究に取り組みました。
+                        趣味は、3Dプリンタを用いた造形や自動車のカスタマイズです。普段の開発環境は、Windows、Arch Linuxを利用しています。
+                    </p>
                 </div>
             </section>
             <hr class="m-0" />
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
+                    <h2 class="mb-5">Skills / スキル</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
+                    <table class="skill">
+                        <tr>
+                          <th colspan="2">種類</th>
+                          <th>使用期間</th>
+                        </tr>
+                        <tr><td rowspan="3">OS</td><td><i class="devicon-windows8-original"></i>　Windows</td><td>19年</td></tr>
+                        <tr><td><i class="devicon-apple-original"></i>　Mac</td><td>13年</td></tr>
+                        <tr><td><i class="devicon-archlinux-plain"></i>　Linux</td><td>12年</td></tr>
+                        <tr><td rowspan="14">言語</td><td>C</td><td>5年</td></tr>
+                        <tr><td>C++</td><td>6年</td></tr>
+                        <tr><td>C#</td><td>2年</td></tr>
+                        <tr><td><i class="devicon-javascript-plain"></i>　JavaScript</td><td>4年</td></tr>
+                        <tr><td><i class="devicon-typescript-plain"></i>　TypeScript</td><td>3年</td></tr>
+                        <tr><td><i class="devicon-html5-plain"></i>　HTML</td><td>4年</td></tr>
+                        <tr><td><i class="devicon-css3-plain"></i>　CSS</td><td>4年</td></tr>
+                        <tr><td><i class="devicon-php-plain"></i>　PHP</td><td>2ヶ月</td></tr>
+                        <tr><td><i class="devicon-python-plain"></i>　Python</td><td>2年6カ月</td></tr>
+                        <tr><td><i class="devicon-java-plain"></i>　Java</td><td>1年</td></tr>
+                        <tr><td><i class="devicon-rust-original"></i>　Rust</td><td>1ヶ月</td></tr>
+                        <tr><td><i class="devicon-go-original-wordmark"></i>　Go</td><td>1ヶ月</td></tr>
+                        <tr><td><i class="devicon-processing-plain"></i>　Processing</td><td>2年</td></tr>
+                        <tr><td><i class="devicon-powershell-plain"></i>　Shell Script</td><td>2年</td></tr>
+                        <tr><td rowspan="1">環境</td><td><i class="devicon-docker-plain"></i>　Docker</td><td>4年</td></tr>
+                    </table>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Qualifications-->
+            <section class="resume-section" id="qualifications">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Qualifications & Awards</h2>
                     <ul class="fa-ul mb-0">
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            総合情報学専攻　修士
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            パーソナルコンピュータ利用技術学会新人奨励賞受賞
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            ITパスポート
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            基本情報技術者試験
                         </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            サーティファイ C言語プログラミング能力認定試験 2級
+                        </li>                        
                     </ul>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
+            <!-- Works-->
+            <section class="resume-section" id="works">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <h2 class="mb-5">Works</h2>
                     <ul class="fa-ul mb-0">
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
+                            <span class="fa-li"><i class="fa-solid fa-camera"></i></span>
+                            Reactによるソートビジュアライザ
+                            <div class="detail alert alert-secondary" role="alert">
+                                バブルソートとクイックソートの入れ替えを可視化するウェブアプリです。Reactを用いてブラウザで入れ替わりがどの様に変化するかを可視化できます。<br>
+                                ウェブアプリ: <a href="https://0oyujio0.github.io/sort-visualizer/" target="_blank">Sort Visualizer</a><br>
+                                ソースコード: <a href="https://github.com/0oyujio0/sort-visualizer/" target="_blank">Sort Visualizer</a>
+                            </div>
+                            <img class="img-works img-fluid rounded mx-auto mb-2" src="assets/img/work0_react.jpg" alt="..." />
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
+                            <span class="fa-li"><i class="fa-solid fa-camera"></i></span>
+                            AIとLINE通知を組み合わせたハムスターウォッチャー
+                            <div class="detail alert alert-secondary" role="alert">
+                                ケージに設置したカメラにハムスターが写った際にLINEで画像を通知するシステムです。ハムスターの検出は、YOLOを転移学習させてモデルを作成しました。<br>
+                                検出精度を向上するためOpenCVでの前処理や、LINE Notifyの時間あたりの送信制限への考慮なども行っています。<br>
+                                また、一度検出した画像から、再学習を行うことで検出精度を向上しました。
+                            </div>
+                            <img class="img-works img-fluid rounded mx-auto mb-2" src="assets/img/work1_hamu.jpg" alt="..." />
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
+                            <span class="fa-li"><i class="fa-solid fa-camera"></i></span>
+                            リアルタイム空撮画像結合システム
+                            <div class="detail alert alert-secondary" role="alert">
+                                ドローンにより撮影された空撮画像をリアルタイムで結合処理を行うPCに無線送信し、OpenCVによって特徴点を検出して画像の結合処理を実施します。<br>
+                                結合された画像は、Vue.jsとElectronによって作成したUIにリアルタイムで更新されます。
+                           </div>
+                        </li>  
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
+                            <span class="fa-li"><i class="fa-solid fa-globe"></i></span>
+                            GPS機器のデータと撮影画像をマージするWindowsアプリケーション
+                            <div class="detail alert alert-secondary" role="alert">
+                                GPS機器からの特殊なデータ形式を解析し、撮影した画像と関連付けてGoogle マップ上にプロットするWindowsアプリケーションです。<br>
+                                このアプリケーションは、学生時代に、実務経験を積むための自発的な取り組みとして開発し、某社に納品しました。
+                           </div>
+                           <img class="img-works img-fluid rounded mx-auto mb-2" src="assets/img/work3_gps.jpg" alt="..." />
+                        </li>  
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
+                            <span class="fa-li"><i class="fa-solid fa-display"></i></span>
+                            Arduinoベースの車用ハイマウントストップランプ
+                            <div class="detail alert alert-secondary" role="alert">
+                                カスタマイズ可能なテキストやパターンを表示できるストップライトを開発しました。<br>
+                                ソフトウェアは、16x32または16x64のLEDマトリクスと連携して動作し、ウィンカーやブレーキとの連動による表示の変化も可能です。<br>
+                                メモリの効率を高めるためにパターンはビット形式で保存され、これらのパターンを画像から生成する補助ツールも作成しました。
+                           </div>
+                           <img class="img-works img-fluid rounded mx-auto mb-2" src="assets/img/work4_disp.jpg" alt="..." />
+                        </li>  
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
+                            <span class="fa-li"><i class="fa-solid fa-print"></i></span>
+                            3Dプリンター用温度モニター＆フィラメント交換アシスタント
+                            <div class="detail alert alert-secondary" role="alert">
+                                3Dプリンターのノズルとベッドの現在の温度と、設定温度をESP32につないだLCDディスプレイモジュールに表示します。<br>
+                                また、接続されたボタンを押すことで、ノズル温度を高温にしフィラメントの交換を行いやすくしました。
+                           </div>
+                           <img class="img-works img-fluid rounded mx-auto mb-2" src="assets/img/work5_3dprint.jpg" alt="..." />
+                        </li>  
                         <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
+                            <span class="fa-li"><i class="fa-regular fa-comments"></i></span>
+                            音楽再生チャットアプリ
+                            <div class="detail alert alert-secondary" role="alert">
+                                ブラウザベースのSocket.IOを用いたチャットアプリです。<br>
+                                MP3形式の音声ファイルをチャット画面にドラッグ・アンド・ドロップすることでチャットに参加しているユーザーのブラウザにて、音楽が再生されます。
+                           </div>
+                        </li>  
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-cards"></i></span>
+                            タロットWEBアプリ
+                            <div class="detail alert alert-secondary" role="alert">
+                                Vue.jsを使用したタロット占いWEBアプリです。シャッフルボタンを押すと6枚のタロットカードがランダムで表示されます。<br>
+                                その際、カードは上下が反転した状態で表示されるようにもしました。
+                           </div>
+                        </li>  
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-music"></i></i></span>
+                            Processingによる音楽同期ビジュアライザー
+                            <div class="detail alert alert-secondary" role="alert">
+                                音楽に合わせて動作するビジュアライザーです。<br>
+                                FFTされた周波数を波形や順番に対応付けられた立方体上の点を大きくしたり小さくすることで、臨場感を演出しました。<br>
+                                また、JSON形式のプレイリスト読み込み、音楽のタイトルやアイコン、背景画像（リズムに合わせて動く）が設定可能です。
+                           </div>
+                        </li>  
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-music"></i></span>
+                            コマンドラインで使用できるファジー検索機能付き音楽プレーヤー
+                            <div class="detail alert alert-secondary" role="alert">
+                                コマンドラインで音楽再生が行えるシェルスクリプトです。<br>
+                                引数に指定されたパスに対してfindコマンドを実行した結果をファジー検索が行えるpecoコマンドに渡し、mpvプレイヤーで音楽再生を行います。<br>
+                                findコマンドの結果は、オプションを付けることで保存することができる為、次回以降の実行が高速になるように工夫しました。
+                           </div>
+                        </li>  
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-pen"></i></i></span>
+                            Javaを使用したお絵かきアプリ
+                            <div class="detail alert alert-secondary" role="alert">
+                                Canvasを使用したシンプルなお絵描きアプリケーションですが、デザインパターンの一つであるBuilderパターンを意識して作成しました。
+                           </div>
+                        </li>  
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-power-off"></i></span>
+                            遠隔操作可能なスマートPC電源コントローラー
+                            <div class="detail alert alert-secondary" role="alert">
+                                Wi-Fiモジュール内蔵のマイコン（ESP32）を使用してPCに起動コマンドを送信することで、自宅のPCを遠隔で起動するコントローラーです。<br>
+                                宅外からの通信には月額制クラウドサービスを避け、無料で利用可能なスマートプラグのサービス（ON/OFF操作）を利用してコストパフォーマンスの高い方法を実現しました。
+                           </div>
+                        </li>  
                     </ul>
+
                 </div>
             </section>
         </div>
